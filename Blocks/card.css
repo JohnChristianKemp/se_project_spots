@@ -1,0 +1,40 @@
+.cards {
+  padding-top: 20px;
+}
+
+.cards_list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 413px);
+  gap: 40px 20px;
+  justify-content: center;
+}
+
+.card {
+  max-width: 413px;
+}
+
+.card_image {
+  height: 413px;
+  width: 413px;
+  object-fit: cover;
+}
+
+.card_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card_title {
+}
+
+.card_like-btn {
+  background-image: url("../images/heart.svg");
+  width: 23px;
+  height: 20px;
+  border: none;
+  background-color: transparent;
+}
