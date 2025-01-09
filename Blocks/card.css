@@ -6,6 +6,7 @@
   height: 413px;
   width: 413px;
   object-fit: cover;
+  border-radius: 8px;
 }
 
 .card_content {
@@ -25,4 +26,11 @@
   height: 20px;
   border: none;
   background-color: transparent;
+}
+
+@media screen and (max-width: 627px) {
+  .card_image {
+    width: 288px;
+    height: 288px;
+  }
 }

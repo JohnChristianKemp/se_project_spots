@@ -2,6 +2,7 @@
   background-color: #fcf5e5;
   min-height: 100vh;
   max-width: 1440px;
+  max-height: 1416px;
   margin: 0 auto;
   font-family: Poppins, Arial, Helvetica, sans-serif;
 }
@@ -9,4 +10,11 @@
 .page__section {
   margin: 0 auto;
   max-width: 1280px;
+  padding: 0 16px;
+}
+
+@media screen and (max-width: 627px) {
+  .page {
+    max-height: fit-content;
+  }
 }

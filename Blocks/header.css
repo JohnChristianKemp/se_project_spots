@@ -9,3 +9,8 @@ header {
   width: 94px;
   height: 26px;
 }
+
+@media screen and (max-width: 627px) {
+  .header {
+  }
+}
