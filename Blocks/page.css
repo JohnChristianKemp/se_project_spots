@@ -3,6 +3,7 @@
   min-height: 100vh;
   max-width: 1440px;
   max-height: 1416px;
+  padding-bottom: 80px;
   margin: 0 auto;
   font-family: Poppins, Arial, Helvetica, sans-serif;
 }
