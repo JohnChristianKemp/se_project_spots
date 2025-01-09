@@ -1,65 +1,67 @@
-# Project 3: Spots
+README.md
 
-### Overview
+Spots - Profile Management Page
 
-- Intro
-- Figma
-- Images
+Description
 
-**Intro**
+The Spots project is a beautifully designed, responsive profile management webpage. It allows users to view a profile section, create new posts, and browse various card-based image galleries. The project emphasizes responsive design, ensuring it adapts seamlessly across all screen sizes, from desktops to mobile devices. The page structure is intuitive, featuring a header, profile section, gallery cards, and a footer.
 
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+Features
+• Profile Section:
+• Displays a user’s profile picture, name, and description.
+• Includes an “Edit Profile” button with an elegant icon.
+• Features a “New Post” button for creating new content.
+• Gallery Cards:
+• A responsive grid layout showcasing images with titles.
+• Includes interactive like buttons for each card.
+• Adjusts seamlessly for various screen sizes.
+• Footer:
+• Displays a centered footer with copyright information.
+• Dynamically positioned to adapt to different layouts.
 
-**Figma**
+Technologies Used 1. HTML5:
+• Semantic and accessible markup for better structure and SEO. 2. CSS3:
+• Flexbox and Grid for responsive and flexible layouts.
+• BEM methodology for scalable and maintainable styles.
+• Media queries to ensure cross-device compatibility. 3. Figma:
+• Used for design prototyping and layout creation. 4. Assets Optimization:
+• Images optimized for fast loading. 5. GitHub Pages:
+• Project hosted and deployed for public access.
 
-- [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
+Responsive Design Techniques
+• Media Queries:
+• Custom styles ensure the layout adapts to screen widths of 627px and below.
+• Flexbox and Grid Layouts:
+• Efficient layout design to manage dynamic resizing.
+• Scalable Design:
+• Elements like images, cards, and buttons resize proportionally.
 
-**Images**
+Screenshots
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
+Desktop View
 
-Good luck and have fun!
+Mobile View
 
-# Project 3: Spots
+Deployed Project
 
-This project is the third project of the Software Engineering program at TripleTen. It is a profile management webpage that adapts seamlessly to various screen sizes. The website was developed using up-to-date HTML and CSS techniques, adhering to the BEM methodology and best practices in web development.
+You can view the live version of this project on GitHub Pages:
+Spots Profile Management Page
 
-Project Features
-• Semantic HTML5: Ensures accessibility and meaningful structure of the webpage.
-• CSS Grid and Flexbox Layouts: Used for responsive and flexible layouts, including the profile and cards sections.
-• Flat BEM File Structure: Organized CSS using the Block-Element-Modifier methodology for scalability and maintainability.
-• Profile Management: Displays a user’s profile information and provides options to edit the profile or add new posts.
-• Cards Grid Layout: A responsive grid layout showcasing user posts with images, titles, and like buttons.
-• Responsive Design: Adapts to different screen sizes, ensuring an optimal user experience on mobile, tablet, and desktop devices.
+How to Run Locally 1. Clone the repository:
 
-Technologies Used
-• HTML5
-• CSS3
-• Google Fonts (Poppins)
-• Normalize.css
-
-Plans for Improvement 1. Add JavaScript Interactivity:
-• Implement functionality for the “like” button.
-• Enable editing and saving of user profile details. 2. Improved Accessibility:
-• Add ARIA roles and attributes for better screen reader support.
-• Enhance keyboard navigation for interactive elements. 3. Dynamic Content:
-• Allow users to upload their own posts and images.
-• Add filters or search options for better navigation through the posts.
-
-Author
-
-John Kemp
-Email: Johnchristiankemp@gmail.com
-
-How to Use 1. Clone the repository:
-
-git clone git@github.com:JohnChristianKemp/se_project_spots.git
+git clone https://github.com/your-github-username/spots-profile-page.git
 
     2.	Navigate to the project directory:
 
-cd se_project_spots
+cd spots-profile-page
 
-    3.	Open the project in a code editor (e.g., Visual Studio Code).
-    4.	Use the Live Server extension or another local server to view the project in the browser.
+    3.	Open the index.html file in a browser:
+    •	You can use any modern browser like Chrome, Firefox, or Edge.
 
-Enjoy exploring the Spots profile management page!
+Future Improvements
+• Add Comments Feature:
+• Allow users to leave comments on individual posts or gallery cards.
+• Interactive Features:
+• Add animations for buttons and hover effects on images/cards.
+• Backend Integration:
+• Connect to a backend service to dynamically load user data and images.
