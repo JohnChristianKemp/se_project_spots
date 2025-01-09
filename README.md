@@ -67,6 +67,6 @@ The **Spots** project is a beautifully designed, responsive profile management w
 ###### Deployed Project
 
 You can view the live version of this project on GitHub Pages:  
-[Spots Profile Management Page](https://github.com/your-github-username/spots-profile-page)
+[Spots Profile Management Page](https://johnchristiankemp.github.io/se_project_spots/)
 
 ---
