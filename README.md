@@ -1,6 +1,6 @@
-README.md
+**Project 3 Spots**
 
-Spots - Profile Management Page
+Profile Management Page
 
 Description
 

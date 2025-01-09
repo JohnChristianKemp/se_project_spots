@@ -33,4 +33,11 @@
     width: 288px;
     height: 288px;
   }
+
+  .card_title {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 240px;
+  }
 }
