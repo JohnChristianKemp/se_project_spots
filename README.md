@@ -70,3 +70,9 @@ You can view the live version of this project on GitHub Pages:
 [Spots Profile Management Page](https://johnchristiankemp.github.io/se_project_spots/)
 
 ---
+
+Project 3 description video
+
+[Watch Video](https://drive.google.com/file/d/1e2xHL1Sx_3yjEInws1YRC-jmc5wMnvBm/view?usp=share_link)
+
+---
