@@ -24,6 +24,11 @@
   line-height: 100%;
 }
 
+.profile__edit-btn:hover {
+  cursor: url("/images/pointer.svg") 17 0, pointer;
+  opacity: 0.7;
+}
+
 .profile__image-pencil {
   height: 18.48;
   width: 3.21;
@@ -39,6 +44,11 @@
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   border-radius: 8px;
   background: #212121;
+}
+
+.profile__add-btn:hover {
+  cursor: url("/images/pointer.svg") 17 0, pointer;
+  opacity: 0.8;
 }
 
 .profile__avatar {
