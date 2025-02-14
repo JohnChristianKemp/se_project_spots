@@ -1,4 +1,4 @@
-header {
+.header {
   background-color: #fff;
   padding: 10px;
   display: flex;
@@ -8,9 +8,4 @@ header {
 .header__logo {
   width: 94px;
   height: 26px;
-}
-
-@media screen and (max-width: 627px) {
-  .header {
-  }
 }
