@@ -7,7 +7,7 @@
     <meta name="author" content="John Kemp" />
     <meta name="keywords" content="HTML, CSS, Profile Page, Spots" />
     <link rel="stylesheet" href="pages/index.css" />
-    <link rel="stylesheet" href="vendor/fonts.css" />
+
     <link rel="icon" type="image/x-icon" href="./favicon.ico" />
     <title>Spots</title>
   </head>
@@ -40,85 +40,87 @@
               Edit Profile
             </button>
           </div>
-          <button class="profile__add-btn">
+          <button type="button" class="profile__add-btn">
             <img src="./images/plus.svg" alt="Plus icon" />
             New Post
           </button>
         </section>
         <!-- Cards -->
         <section class="cards page__section">
-          <ul class="cards_list">
+          <ul class="cards__list">
             <li class="card">
               <img
                 src="./images/spots-avatar-and-card-images/1-photo-by-moritz-feldmann-from-pexels.jpg"
                 alt="Val Thorens"
-                class="card_image"
+                class="card__image"
               />
-              <div class="card_content">
-                <h2 class="card_title">Val Thorens</h2>
-                <button type="button" class="card_like-btn"></button>
+              <div class="card__content">
+                <h2 class="card__title">Val Thorens</h2>
+                <button type="button" class="card__like-btn"></button>
               </div>
             </li>
             <li class="card">
               <img
                 src="./images/spots-avatar-and-card-images/2-photo-by-ceiline-from-pexels.jpg"
                 alt="Restaurant Terrace"
-                class="card_image"
+                class="card__image"
               />
-              <div class="card_content">
-                <h2 class="card_title">Restaurant Terrace</h2>
-                <button type="button" class="card_like-btn"></button>
+              <div class="card__content">
+                <h2 class="card__title">Restaurant Terrace</h2>
+                <button type="button" class="card__like-btn"></button>
               </div>
             </li>
             <li class="card">
               <img
                 src="./images/spots-avatar-and-card-images/3-photo-by-tubanur-dogan-from-pexels.jpg"
                 alt="An Outdoor Cafe"
-                class="card_image"
+                class="card__image"
               />
-              <div class="card_content">
-                <h2 class="card_title">An Outdoor Cafe</h2>
-                <button type="button" class="card_like-btn"></button>
+              <div class="card__content">
+                <h2 class="card__title">An Outdoor Cafe</h2>
+                <button type="button" class="card__like-btn"></button>
               </div>
             </li>
             <li class="card">
               <img
                 src="./images/spots-avatar-and-card-images/4-photo-by-maurice-laschet-from-pexels.jpg"
                 alt="A Very Long Bridge"
-                class="card_image"
+                class="card__image"
               />
-              <div class="card_content">
-                <h2 class="card_title">A Very Long Bridge</h2>
-                <button type="button" class="card_like-btn"></button>
+              <div class="card__content">
+                <h2 class="card__title">A Very Long Bridge</h2>
+                <button type="button" class="card__like-btn"></button>
               </div>
             </li>
             <li class="card">
               <img
                 src="./images/spots-avatar-and-card-images/5-photo-by-van-anh-nguyen-from-pexels.jpg"
                 alt="Mountain House"
-                class="card_image"
+                class="card__image"
               />
-              <div class="card_content">
-                <h2 class="card_title">Mountain House</h2>
-                <button type="button" class="card_like-btn"></button>
+              <div class="card__content">
+                <h2 class="card__title">Mountain House</h2>
+                <button type="button" class="card__like-btn"></button>
               </div>
             </li>
             <li class="card">
               <img
                 src="./images/spots-avatar-and-card-images/6-photo-by-moritz-feldmann-from-pexels.jpg"
                 alt="Tunnel with Morning Light"
-                class="card_image"
+                class="card__image"
               />
-              <div class="card_content">
-                <h2 class="card_title">Tunnel with Morning Light</h2>
-                <button type="button" class="card_like-btn"></button>
+              <div class="card__content">
+                <h2 class="card__title">Tunnel with Morning Light</h2>
+                <button type="button" class="card__like-btn"></button>
               </div>
             </li>
           </ul>
         </section>
       </main>
       <!-- Footer Section -->
-      <footer class="footer">2025 &copy; Spots</footer>
+      <footer class="footer">
+        <p class="footer__text">2025 &copy; Spots</p>
+      </footer>
     </div>
   </body>
 </html>
