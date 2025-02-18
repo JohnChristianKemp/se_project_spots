@@ -25,6 +25,18 @@
   color: #212121;
 }
 
+.profile__edit-button::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/button-pencil.svg");
+  background-size: cover;
+}
+
 .profile__edit-btn:hover {
   cursor: url("/images/pointer.svg") 17 0, pointer;
   opacity: 0.7;
