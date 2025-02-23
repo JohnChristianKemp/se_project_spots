@@ -23,20 +23,21 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 119px;
+  max-width: 353px;
   margin: 0;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 16px;
 }
 
 .card__like-btn {
-  background-image: url("../images/State=Hover.png");
+  background-image: url("../images/State=Hover.svg");
   width: 23px;
   height: 20px;
   border: none;
   background-color: transparent;
   opacity: 0.4;
   transition: opacity 0.3s ease;
+  cursor: url("/images/pointer.svg") 17 0, pointer;
 }
 
 .card__like-btn:hover {
@@ -51,7 +52,5 @@
 
   .card__title {
     width: 240px;
-    font-size: 20px;
-    line-height: 20;
   }
 }
