@@ -10,13 +10,14 @@
 }
 
 .profile__edit-btn {
+  display: flex;
+  gap: 8px;
   margin-top: auto;
-  margin-left: 0;
   background: none;
   border: none;
-  width: 70px;
+  max-width: 100%;
   height: 16px;
-  white-space: nowrap;
+  opacity: 0.7;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -25,28 +26,16 @@
   color: #212121;
 }
 
-.profile__edit-button::before {
-  content: "";
-  position: absolute;
-  left: 4px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 16px;
-  height: 16px;
-  background-image: url("../images/button-pencil.svg");
-  background-size: cover;
-}
-
 .profile__edit-btn:hover {
   cursor: url("/images/pointer.svg") 17 0, pointer;
-  opacity: 0.7;
-}
-
-.profile__image-pencil {
-  color: #212121;
+  opacity: 1;
 }
 
 .profile__add-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   width: 149px;
   height: 52px;
   color: #fcf5e5;
@@ -81,7 +70,6 @@
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   text-overflow: ellipsis;
   overflow: hidden;
-  line-clamp: 3;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -97,7 +85,7 @@
   line-height: 16px;
   text-overflow: ellipsis;
   overflow: hidden;
-  line-clamp: 3;
+  opacity: 0.7;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -112,7 +100,6 @@
     align-items: center;
     text-align: center;
     padding-top: 20px;
-    margin-bottom: 20px;
   }
 
   .profile__column {
@@ -135,7 +122,6 @@
   .profile__description {
     margin-bottom: 32px;
     max-width: 288px;
-    font-weight: 400;
   }
 
   .profile__edit-btn {
