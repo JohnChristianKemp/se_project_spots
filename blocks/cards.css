@@ -23,5 +23,6 @@
   .cards {
     max-width: 288px;
     gap: 12px;
+    padding-bottom: 20px;
   }
 }
