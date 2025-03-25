@@ -24,18 +24,24 @@
   width: 100%;
   position: relative;
   box-sizing: border-box;
+  margin: 0px 0px 32px;
 }
 
 .modal__close-button {
+  background-image: url("../images/close-button.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
   position: absolute;
   top: 32px;
   right: 50px;
   width: 40px;
   height: 40px;
-}
 
-.modal__container {
-  margin: 0px 0px 32px;
+  border: none;
+  background-color: transparent;
+  z-index: 10;
 }
 
 .modal__label {
@@ -54,11 +60,22 @@
 
 .modal__input {
   padding: 16px 12px;
+  border-radius: 8px;
+  border: 1px solid #212121;
 }
 
 .modal__submit-button {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
   width: 156px;
   padding: 18px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius: 8px;
 }
 
 @media screen and (max-width: 627px) {
