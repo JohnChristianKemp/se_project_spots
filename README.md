@@ -76,3 +76,5 @@ Project 3 description video
 [Watch Video](https://drive.google.com/file/d/1e2xHL1Sx_3yjEInws1YRC-jmc5wMnvBm/view?usp=share_link)
 
 ---
+
+cursor: url("/images/pointer.svg") 17 0, pointer;

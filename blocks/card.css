@@ -37,7 +37,7 @@
   background-color: transparent;
   opacity: 0.4;
   transition: opacity 0.3s ease;
-  cursor: url("/images/pointer.svg") 17 0, pointer;
+  cursor: pointer;
 }
 
 .card__like-btn:hover {

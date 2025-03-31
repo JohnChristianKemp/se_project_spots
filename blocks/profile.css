@@ -27,7 +27,7 @@
 }
 
 .profile__edit-btn:hover {
-  cursor: url("/images/pointer.svg") 17 0, pointer;
+  cursor: pointer;
   opacity: 1;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .profile__add-btn:hover {
-  cursor: url("/images/pointer.svg") 17 0, pointer;
+  cursor: pointer;
   opacity: 0.8;
 }
 
