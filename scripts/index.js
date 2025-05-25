@@ -55,14 +55,22 @@ function getCardElement(data) {
   return cardElement;
 }
 
+function openModal(modal) {
+  modal.classList.add("modal_is-opened");
+}
+
+function closeModal(modal) {
+  modal.classList.remove("modal_is-opened");
+}
+
 function openModal() {
   editModalNameInput.value = profileName.textContent;
   editModalDescriptionInput.value = profileDescription.textContent;
-  editModal.classList.add("modal_opened");
+  openModal(editProfileModal);
 }
 
 function closeModal() {
-  editModal.classList.remove("modal_opened");
+  closeModal(editProfileModal);
 }
 
 function handleEditFormSubmit(evt) {
