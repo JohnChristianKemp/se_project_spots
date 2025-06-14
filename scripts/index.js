@@ -89,7 +89,21 @@ for (let i = 0; i < initialCards.length; i++) {
   cardsList.prepend(cardElement);
 }
 
+addCardFormEl.addEventListener("submit", function (evt) {
+  evt.preventDefault();
+
+  const inputValues = {
+    name: captionInputEl.value,
+    link: linkInputEl.value,
+  };
+
+  const cardElement = getCardElement(inputValues);
+  cardsList.prepend(cardElement);
+
+  addCardModal.classList.remove("modal_is-opened");
+});
+
 initialCards.forEach(function (item) {
-  console.log(item.name);
-  console.log(item.link);
+  const cardElement = getCardElement(item);
+  cardsList.append(cardElement);
 });
