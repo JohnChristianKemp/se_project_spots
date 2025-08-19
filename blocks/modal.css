@@ -33,13 +33,11 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 35px 35px;
-
   position: absolute;
   top: 32px;
   right: 50px;
   width: 40px;
   height: 40px;
-
   border: none;
   background-color: transparent;
   z-index: 10;
@@ -85,13 +83,27 @@
   width: 156px;
   padding: 18px 0;
   border: none;
-  border-radius: 4px;
-  cursor: pointer;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .modal__submit-button:hover {
   opacity: 0.8;
+}
+
+.modal__image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+
+.modal__caption {
+  margin: 0;
+  font-size: 16px;
+  color: #212121;
+  text-align: center;
 }
 
 @media screen and (max-width: 627px) {
